@@ -6,16 +6,17 @@ int x = 0;
 int main (){
 void printArray (int myArray[3], int arrayLength){
 
-while (x < 3){
+while ( x < 3){
      printf ("%d", myArray[x]);
-    if (x<2){
+    if ( x < 2){
         printf(",");
     }
                x++;
  }
 
 }
-printArray (myArray, 3);
+printArray ( myArray, 3);
+
 
     return 0;
 }
